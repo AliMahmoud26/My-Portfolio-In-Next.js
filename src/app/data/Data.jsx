@@ -6,11 +6,12 @@ export const skillsData = [
     skills: [
       "HTML5 & CSS3",
       "Javascript & ES6",
-      "Sass/Scss",
-      "Tailwind CSS & Bootstrap5",
       "TypeScript",
-      "React.JS",
-      "Next.JS"
+      "React.JS & Redux",
+      "Next.JS",
+      "SASS/SCSS",
+      "Tailwind CSS & Bootstrap 5",
+      "Git & GitHub",
     ],
   },
   {

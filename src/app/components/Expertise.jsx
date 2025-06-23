@@ -11,8 +11,8 @@ const Expertise = () => {
   return (
     <section className='expertise mt-20 py-12 px-8 md:px-12 lg:px-16' id='expertise'>
       <h1 className={`${rowdies.className} mb-2 relative text-3xl font-bold text-cyan-400`}>EXPERTISE</h1>
-      <div className="line-1 absolute bottom-[-36.75rem] left-[4rem] h-[0.2rem] w-[5.5rem] bg-cyan-400 rounded-[50%]"></div>
-      <div className="line-1 absolute bottom-[-37.25rem] left-[4rem] h-[0.2rem] w-[9.5rem] bg-cyan-400 rounded-[50%]"></div>
+      <div className="line-1 absolute bottom-[-38.75rem] left-[4rem] h-[0.2rem] w-[5.5rem] bg-cyan-400 rounded-[50%]"></div>
+      <div className="line-1 absolute bottom-[-39.25rem] left-[4rem] h-[0.2rem] w-[9.5rem] bg-cyan-400 rounded-[50%]"></div>
 
       <div className="mt-18 grid grid-cols-1 lg:grid-cols-2 gap-20 mx-12">
         {/* Experience Section */}

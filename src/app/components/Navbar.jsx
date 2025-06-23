@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div className="logo">
-            <a href='#' className={`${rowdies.className} text-[2.5rem] text-white hover:text-cyan-300 transition-colors duration-300`}>Ali.</a>
+            <a href='#' className={`${rowdies.className} text-[2.5rem] text-white transition-colors duration-300`}>Ali.</a>
           </div>
           
           <button 
@@ -51,7 +51,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#" 
-                  className={`${rowdies.className} text-white hover:text-cyan-300 text-xl transition-colors duration-300`}
+                  className={`${rowdies.className} text-white hover:text-cyan-600 text-xl transition-colors duration-300`}
                   onClick={() => setNavbarOpen(false)}
                 >
                   Home
@@ -60,7 +60,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#skills" 
-                  className={`${rowdies.className} text-white hover:text-cyan-300 text-xl transition-colors duration-300`}
+                  className={`${rowdies.className} text-white hover:text-cyan-600 text-xl transition-colors duration-300`}
                   onClick={() => setNavbarOpen(false)}
                 >
                   Skills
@@ -69,7 +69,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#expertise" 
-                  className={`${rowdies.className} text-white hover:text-cyan-300 text-xl transition-colors duration-300`}
+                  className={`${rowdies.className} text-white hover:text-cyan-600 text-xl transition-colors duration-300`}
                   onClick={() => setNavbarOpen(false)}
                 >
                   Expertise
@@ -78,7 +78,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#projects" 
-                  className={`${rowdies.className} text-white hover:text-cyan-300 text-[1.25rem] transition-colors duration-300`}
+                  className={`${rowdies.className} text-white hover:text-cyan-600 text-[1.25rem] transition-colors duration-300`}
                   onClick={() => setNavbarOpen(false)}
                 >
                   Projects
@@ -87,7 +87,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#contact" 
-                  className={`${rowdies.className} text-white hover:text-cyan-300 text-xl transition-colors duration-300`}
+                  className={`${rowdies.className} text-white hover:text-cyan-600 text-xl transition-colors duration-300`}
                   onClick={() => setNavbarOpen(false)}
                 >
                   Contact
