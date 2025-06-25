@@ -43,21 +43,21 @@ const Header = () => {
 
           {/* Image with Border Effects */}
           <div className="img mt-4 relative h-[28rem] w-[23rem] z-0">
-            <div className="absolute top-[-0.25rem] left-[-0.25rem] w-30 h-40 border-t-4 border-l-4 border-cyan-400"></div>
-            <div className="absolute bottom-[-0.25rem] right-[-0.25rem] w-30 h-40 border-b-4 border-r-4 border-cyan-400"></div>
+            {/* <div className="absolute top-[-0.25rem] left-[-0.25rem] w-30 h-40 border-t-4 border-l-4 border-cyan-400"></div> */}
+            {/* <div className="absolute bottom-[-0.25rem] right-[-0.25rem] w-30 h-40 border-b-4 border-r-4 border-cyan-400"></div> */}
             <Image 
               src="/my-img.jpg" 
               alt="Ali Mahmoud" 
               width={368}
               height={448}
-              className="h-full w-full z-10 relative object-cover"
+              className="h-full w-full z-10 relative object-cover shadow-md shadow-cyan-400 rounded-lg"
               priority
             />
           </div>
         </div>
 
         {/* Download CV Button */}
-        <div className="btn bg-[#03cdff17] border-2 border-[#03cdff17] rounded-full py-[0.5rem] px-8 w-fit mt-[-4.5rem] transition-colors duration-300 hover:bg-transparent">
+        <div className="btn bg-[#03cdff17] border-2 border-[#03cdff17] rounded-full py-[0.75rem] px-8 w-fit mt-[-4rem] transition-colors duration-300 hover:bg-transparent shadow-md shadow-cyan-400/50 rounded-lg">
           <a 
             href="/Ali_CV.pdf" 
             target="_blank" 

@@ -18,7 +18,7 @@ const Skills = () => {
         {skillsData.map((skillCategory) => (
           <div 
             key={skillCategory.id}
-            className={`bg-[#03cdff17] py-5 px-7 rounded shadow-md ml-5 border-l-4 border-cyan-400 transition-all ease-in-out duration-600 hover:scale-105`}
+            className={`bg-[#03cdff17] py-5 px-7 rounded shadow-md shadow-cyan-600/20 ml-5 border-l-4 border-cyan-400 transition-all ease-in-out duration-600 hover:scale-105`}
           >
             <h2 className={`${rowdies.className} text-2xl text-cyan-400 mb-4`}>
               {skillCategory.category}
