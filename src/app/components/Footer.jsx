@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="reach-me mb-10">
           <h4 className="text-cyan-400 mb-2 tracking-widest font-bold">GET IN TOUCH</h4>
           <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold leading-10 mb-4">
-            I love to hear from you. Whether you have a question or just want to chat about design & tech — shoot me a message.
+            I love to hear from you. Whether you have a question or asking for freelance or work availability — shoot me a message.
           </h1>
         </div>
 

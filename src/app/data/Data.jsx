@@ -28,10 +28,9 @@ export const skillsData = [
     category: "SOFT SKILLS",
     skills: [
       "Teamwork & Collaboration",
-      "Patience and Perseverance",
+      "Responsibility & Adaptability",
       "Fast Learner",
       "Problem-Solving",
-      "Responsibility & Adaptability",
     ],
   },
 ];
@@ -59,7 +58,7 @@ export const expertiseData = {
       id: 1,
       title: "Meta Frontend Developer Professional Certificate",
       subtitle: "Coursera Platform",
-      date: "OCT 2023 - JUL 2024",
+      date: "FEB 2024 - JUL 2024",
       description: "Covered HTML, CSS, JavaScript, and advanced React including hooks & performance optimization",
       lineHeight: "h-[12rem]"
     },
@@ -69,9 +68,10 @@ export const expertiseData = {
       id: 3,
       title: "HIMIT Institute",
       subtitle: "B.SC. IN COMPUTER SCIENCE",
-      date: "JOINED IN OCTOBER 2021 - GRADUATION IN JUNE 2025",
+      date: "JOINED IN OCTOBER 2021 - GRADUATED IN JUNE 2025",
       description: "I enrolled in the Higher Institute of Management and Information Technology of Kafr El-Sheikh at Computer Science Department and Graduated in June 2025. Studied core computer science concepts including Programming Fundamentals, DSA, OOP, system analysis, software architecture, and mathematics.",
-      lineHeight: "h-[17rem]"
+      second_description: "Developed a Predictive Model Using Machine Learning for Predicting Student Performance for Graduation Project. Implemented Python, Pandas, and Scikit-learn. The model predicts student performance based on various factors such as attendance, assignments, and exam scores.",
+      lineHeight: "h-[26rem]"
     }
   ]
 };

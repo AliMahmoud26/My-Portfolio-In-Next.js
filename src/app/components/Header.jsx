@@ -24,7 +24,7 @@ const Header = () => {
           {/* Text Content */}
           <div className="text w-full md:w-2/3 mt-[4rem]">
             <span className={`${rowdies.className} mb-[10rem] text-white uppercase font-semibold text-sm md:text-base`}>
-              Software Developer
+              Software Engineer
             </span>
             <br />
             <span className={`${rowdies.className} mb-[0.875rem] text-cyan-400 text-4xl md:text-6xl font-extrabold block`}>
@@ -43,14 +43,14 @@ const Header = () => {
 
           {/* Image with Border Effects */}
           <div className="img mt-4 relative h-[28rem] w-[23rem] z-0">
-            {/* <div className="absolute top-[-0.25rem] left-[-0.25rem] w-30 h-40 border-t-4 border-l-4 border-cyan-400"></div> */}
-            {/* <div className="absolute bottom-[-0.25rem] right-[-0.25rem] w-30 h-40 border-b-4 border-r-4 border-cyan-400"></div> */}
+            <div className="absolute top-[-0.25rem] left-[-0.25rem] w-30 h-40 border-t-4 border-l-4 border-cyan-400"></div>
+            <div className="absolute bottom-[-0.25rem] right-[-0.25rem] w-30 h-40 border-b-4 border-r-4 border-cyan-400"></div>
             <Image 
               src="/my-img.jpg" 
               alt="Ali Mahmoud" 
               width={368}
               height={448}
-              className="h-full w-full z-10 relative object-cover shadow-md shadow-cyan-400 rounded-lg"
+              className="h-full w-full z-10 relative object-cover shadow-md shadow-cyan-400"
               priority
             />
           </div>

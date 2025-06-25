@@ -31,7 +31,7 @@ const Expertise = () => {
                 <h2 className={`${rowdies.className} text-white text-xl mb-1`}>{exp.title}</h2>
                 <h3 className={`${rowdies.className} text-white text-base mb-1`}>{exp.subtitle}</h3>
                 <span className="text-gray-500 text-xs tracking-wider">{exp.date}</span>
-                <p className="text-gray-300 mt-6 leading-8">{exp.description}</p>
+                <p className="text-gray-300 mt-6 leading-8 mb-2">{exp.description}</p>
               </div>
             </div>
           ))}
@@ -54,6 +54,7 @@ const Expertise = () => {
                 <h3 className={`${rowdies.className} text-white text-base mb-1`}>{edu.subtitle}</h3>
                 <span className="text-gray-500 text-xs tracking-wider">{edu.date}</span>
                 <p className="text-gray-300 mt-6 leading-8">{edu.description}</p>
+                <p className="text-gray-300 mt-6 leading-8">{edu.second_description}</p>
               </div>
             </div>
           ))}
