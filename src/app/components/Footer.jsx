@@ -8,7 +8,7 @@ const rowdies = Rowdies({
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-[#03cdff17] pt-14 pb-5 px-8 md:px-16 mt-4' id='contact'>
+    <footer className='w-full bg-[#03cdff17] pt-14 pb-5 px-8 md:px-16 mt-12' id='contact'>
       <div className="mx-auto flex flex-col max-w-7xl">
         {/* Reach Me Section */}
         <div className="reach-me mb-10">
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         {/* Other Links Section */}
-        <div className="other-links flex flex-row items-center gap-6">
+        <div className="other-links flex flex-row items-center gap-6 max-md:flex-col max-md:items-start mb-10">
           {/* Email Section */}
           <div className="email lg:w-1/4">
             <h4 className="text-cyan-400 font-normal text-base tracking-widest mb-2 font-bold">REACH ME AT</h4>
@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
 
           {/* Email Box Section */}
-          <div className="email-box bg-cyan-400 px-12 py-4 flex items-center cursor-pointer transition-colors duration-300 hover:bg-transparent">
+          <div className="email-box bg-cyan-400 px-12 py-4 flex items-center cursor-pointer transition-colors duration-300 hover:bg-transparent max-md:mt-4">
             <a 
               href="mailto:alimahmoud.cs@outlook.com" 
               title='Outlook'
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright Section */}
-        <p className='text-cyan-400 text-center text-sm mt-16'>
+        <p className='text-cyan-400 text-center text-sm mt-16 max-md:mt-8'>
           Copyright &copy; Ali Mahmoud 2024, All Rights Reserved
         </p>
       </div>

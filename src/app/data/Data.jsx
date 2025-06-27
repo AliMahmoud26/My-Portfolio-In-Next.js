@@ -41,7 +41,7 @@ export const expertiseData = {
     {
       id: 1,
       title: "APPS SQUARE",
-      subtitle: "FRONTEND DEVELOPER",
+      subtitle: "FRONTEND INTERN",
       date: "JULY 2024 - SEPTEMBER 2024",
       description: "Developed responsive web apps using React and Next.js, implemented APIs, authentication, and cookies while collaborating on team projects and code reviews following best practices.",
       lineHeight: "h-[14rem]"
@@ -75,3 +75,97 @@ export const expertiseData = {
     }
   ]
 };
+
+// projects-data.js
+export const projectsData = [
+    {
+    id: 1,
+    title: "React Nuggets Applications",
+    category: "WEBSITE",
+    technologies: ["React JS & CSS", "Simple React Apps for Learning"],
+    description: "",
+    image: "/ecommerce5.jpg",
+    links: [
+      {
+        type: "live",
+        url: "https://react-nugget-app-menu-filtering.vercel.app/",
+        icon: "MdArrowOutward",
+        title: "Live Site"
+      },
+      {
+        type: "github",
+        url: "https://github.com/AliMahmoud26/React-Nuggets-Apps",
+        icon: "FaGithub",
+        title: "Github Repo"
+      }
+    ],
+    highlightTech: true
+  },
+  {
+    id: 2,
+    title: "Expense Tracker Dashboard",
+    category: "Web Application",
+    technologies: ["Next.js & Tailwind CSS"],
+    description: "",
+    image: "/expense_tracker_2.webp",
+    links: [
+      {
+        type: "live",
+        url: "https://expense-tracker-application-seven.vercel.app/",
+        icon: "MdArrowOutward",
+        title: "Live Site"
+      },
+      {
+        type: "github",
+        url: "https://github.com/AliMahmoud26/Expense-Tracker-Application",
+        icon: "FaGithub",
+        title: "Github Repo"
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: "Little Lemon Restaurant",
+    category: "WEBSITE",
+    technologies: ["React.js & SCSS", "Refactored to Next.js & Tailwind CSS", "Meta Frontend Capstone Project"],
+    description: "",
+    image: "/littleLemon.jpeg",
+    links: [
+      {
+        type: "live",
+        url: "https://little-lemon-silk.vercel.app/",
+        icon: "MdArrowOutward",
+        title: "Live Site"
+      },
+      {
+        type: "github",
+        url: "https://github.com/AliMahmoud26/Meta-Frontend-Capstone-Project",
+        icon: "FaGithub",
+        title: "Github Repo"
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: "MallMarkt Admin Panel",
+    category: "Web APPLICATION",
+    technologies: ["NEXT JS, Tailwind CSS & Strapi", "under development..."],
+    description: "",
+    image: "/dashboard2.jpg",
+    links: [
+      {
+        type: "live",
+        url: "https://mallmarkt-dashboard.vercel.app/",
+        icon: "MdArrowOutward",
+        title: "Live Site"
+      },
+      {
+        type: "github",
+        url: "https://github.com/AliMahmoud26/MallMarkt-Control-Panel",
+        icon: "FaGithub",
+        title: "Github Repo"
+      }
+    ],
+    highlightTech: true
+  },
+];
