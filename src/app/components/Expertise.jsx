@@ -9,12 +9,12 @@ const rowdies = Rowdies({
 
 const Expertise = () => {
   return (
-    <section className='expertise mt-20 py-12 px-8 md:px-12 lg:px-16' id='expertise'>
+    <section className='expertise mt-20 py-12 px-8 max-md:px-4 lg:px-16' id='expertise'>
       <h1 className={`${rowdies.className} mb-2 relative text-3xl font-bold text-cyan-400`}>EXPERTISE</h1>
-      <div className="line-1 absolute bottom-[-38.75rem] left-[4rem] h-[0.2rem] w-[5.5rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-100.5rem] max-sm:left-[2rem]"></div>
-      <div className="line-1 absolute bottom-[-39.25rem] left-[4rem] h-[0.2rem] w-[9.5rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-101rem] max-sm:left-[2rem]"></div>
+      <div className="line-1 absolute bottom-[-38.75rem] left-[4rem] h-[0.2rem] w-[5.5rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
+      <div className="line-1 absolute bottom-[-39.25rem] left-[4rem] h-[0.2rem] w-[9.5rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
 
-      <div className="mt-18 grid grid-cols-1 lg:grid-cols-2 gap-20 mx-12">
+      <div className="mt-18 grid grid-cols-1 lg:grid-cols-2 gap-20 mx-12 max-md:mx-1 ">
         {/* Experience Section */}
         <div className="experience">
           <h4 className="text-white mb-8 text-lg tracking-widest font-normal">

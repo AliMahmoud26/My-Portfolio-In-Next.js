@@ -19,10 +19,10 @@ const Header = () => {
       </section>
 
       {/* Hero/About Section */}
-      <section className="about pt-[9rem] px-[4rem] md:px-32 sm:px-16">
-        <div className="my-info flex justify-between items-center flex-col-reverse md:flex-row gap-8">
+      <section className="about pt-[9rem] px-[4rem] max-md:px-8 max-sm:px-4">
+        <div className="my-info flex justify-between items-center flex-col-reverse md:flex-row gap-8 max-md:items-start">
           {/* Text Content */}
-          <div className="text w-full md:w-2/3 mt-[4rem]">
+          <div className="text w-full md:w-2/3 mt-[4rem] max-md:mt-[1rem]">
             <span className={`${rowdies.className} mb-[10rem] text-white uppercase font-semibold text-sm md:text-base`}>
               Software Engineer
             </span>
@@ -42,7 +42,7 @@ const Header = () => {
           </div>
 
           {/* Image with Border Effects */}
-          <div className="img mt-4 relative h-[28rem] w-[23rem] z-0">
+          <div className="img mt-4 relative h-[28rem] w-[23rem] z-0 max-sm:mx-auto max-[450px]:w-[14rem] max-[450px]:w-[20rem]">
             <div className="absolute top-[-0.25rem] left-[-0.25rem] w-30 h-40 border-t-4 border-l-4 border-cyan-400"></div>
             <div className="absolute bottom-[-0.25rem] right-[-0.25rem] w-30 h-40 border-b-4 border-r-4 border-cyan-400"></div>
             <Image 

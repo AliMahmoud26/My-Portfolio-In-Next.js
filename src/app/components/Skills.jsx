@@ -9,12 +9,12 @@ const rowdies = Rowdies({
 
 const Skills = () => {
   return (
-    <section className='skills px-8 md:px-12 lg:px-16 max-sm:mt-20' id='skills'>
+    <section className='skills px-8 max-md:px-4 lg:px-16 max-md:mt-20' id='skills'>
       <h1 className={`${rowdies.className} relative text-3xl font-bold text-cyan-400`}>SKILLS</h1>
-      <div className="line-1 absolute bottom-[-2.5rem] left-[4rem] h-[0.2rem] w-[3.5rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-38.25rem] max-sm:left-[2rem]"></div>
-      <div className="line-1 absolute bottom-[-3rem] left-[4rem] h-[0.2rem] w-[5.75rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-38.75rem] max-sm:left-[2rem]"></div>
+      <div className="line-1 absolute bottom-[-2.5rem] left-[4rem] h-[0.2rem] w-[3.5rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
+      <div className="line-1 absolute bottom-[-3rem] left-[4rem] h-[0.2rem] w-[5.75rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
       
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-[5rem] mx-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-[5rem] mx-12 max-md:mx-0">
         {skillsData.map((skillCategory) => (
           <div 
             key={skillCategory.id}

@@ -14,9 +14,9 @@ const RecentWork = () => {
   return (
     <section className='projects py-12 px-4 md:px-8 lg:px-16' id='projects'>
       <h1 className={`${rowdies.className} mb-2 relative text-3xl font-bold text-cyan-400`}>RECENT WORK</h1>
-      <div className="line-1 absolute bottom-[-82.75rem] left-[4rem] h-[0.2rem] w-[8rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-204.75rem] max-sm:left-[1rem]"></div>
-      <div className="line-1 absolute bottom-[-83.25rem] left-[4rem] h-[0.2rem] w-[13.5rem] bg-cyan-400 rounded-[50%] max-sm:bottom-[-205.25rem] max-sm:left-[1rem]"></div>
-      <h2 className={`font-bold text-white text-xl md:text-2xl lg:text-5xl mt-10 mb-12 leading-14`}>
+      <div className="line-1 absolute bottom-[-82.75rem] left-[4rem] h-[0.2rem] w-[8rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
+      <div className="line-1 absolute bottom-[-83.25rem] left-[4rem] h-[0.2rem] w-[13.5rem] bg-cyan-400 rounded-[50%] max-lg:hidden"></div>
+      <h2 className={`font-bold text-white text-xl md:text-2xl lg:text-5xl my-12 leading-14 max-md:leading-8 max-sm:my-6 max-sm:mb-8`}>
         Here are some of my favorite projects I have done lately. Feel free to check them out.
       </h2>
 
