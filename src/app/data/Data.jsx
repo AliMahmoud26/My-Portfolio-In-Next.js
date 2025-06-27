@@ -44,7 +44,7 @@ export const expertiseData = {
       subtitle: "FRONTEND INTERN",
       date: "JULY 2024 - SEPTEMBER 2024",
       description: "Developed responsive web apps using React and Next.js, implemented APIs, authentication, and cookies while collaborating on team projects and code reviews following best practices.",
-      lineHeight: "h-[14rem] md:h-[18rem] max-[600px]:h-[24rem]",
+      lineHeight: "h-[12rem] md:h-[18rem] max-[600px]:h-[24rem]",
     },
     // {
     //   id: 1,
@@ -60,7 +60,7 @@ export const expertiseData = {
       subtitle: "Coursera Platform",
       date: "FEB 2024 - JUL 2024",
       description: "Covered HTML, CSS, JavaScript, and advanced React including hooks & performance optimization",
-      lineHeight: "h-[12rem] md:h-[14rem] sm:h-[12rem] max-[400px]:h-[16rem]"
+      lineHeight: "lg:h-[10rem] md:h-[14rem] sm:h-[12rem] max-[400px]:h-[16rem]"
     },
   ],
   education: [
@@ -71,7 +71,7 @@ export const expertiseData = {
       date: "JOINED IN OCTOBER 2021 - GRADUATED IN JUNE 2025",
       description: "I enrolled in the Higher Institute of Management and Information Technology of Kafr El-Sheikh at Computer Science Department and Graduated in June 2025. Studied core computer science concepts including Programming Fundamentals, DSA, OOP, system analysis, software architecture, and mathematics.",
       second_description: "Developed a Predictive Model Using Machine Learning for Predicting Student Performance for Graduation Project. Implemented Python, Pandas, and Scikit-learn. The model predicts student performance based on various factors such as attendance, assignments, and exam scores.",
-      lineHeight: "h-[26rem] md:h-[20rem] sm:h-[28rem] max-[500px]:h-[34rem] max-[400px]:h-[42rem] max-[350px]:h-[48rem]"
+      lineHeight: "lg:h-[25rem] md:h-[20rem] sm:h-[28rem] max-[500px]:h-[34rem] max-[400px]:h-[42rem] max-[350px]:h-[48rem]"
     }
   ]
 };

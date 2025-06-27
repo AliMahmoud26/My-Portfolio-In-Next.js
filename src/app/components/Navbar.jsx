@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   const handleScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 25) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <header className={`relative py-[1rem] px-[4rem] max-md:px-[2rem] top-0 w-full z-50 transition-all duration-500 ease-out ${isScrolled ? 'bg-cyan-400 shadow-md' : 'bg-[#222]'}`}>
+    <header className={`fixed py-[1rem] px-[4rem] max-md:px-[2rem] top-0 w-full z-50 transition-all duration-500 ease-out ${isScrolled ? 'bg-cyan-400 shadow-md' : 'bg-[#222]'}`}>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div className="logo">
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {navbarOpen && (
-          <div className="absolute top-25 left-[50%] translate-x-[-50%] w-full bg-cyan-400 shadow-lg rounded-lg">
+          <div className={`absolute top-25 left-0 w-full bg-cyan-400/50 shadow-lg rounded-lg`}>
             <div className="relative py-4 px-8">
               {/* <button 
                 className="absolute top-4 right-4 text-white focus:outline-none"
@@ -106,7 +106,7 @@ const Navbar = () => {
               </button> */}
               
               <nav>
-                <ul className="space-y-6 flex flex-col justify-center items-center">
+                <ul className="space-y-6 flex justify-center items-center flex-col">
                   <li>
                     <a 
                       href="#" 

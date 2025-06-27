@@ -19,7 +19,7 @@ const Header = () => {
       </section>
 
       {/* Hero/About Section */}
-      <section className="about pt-[9rem] px-[4rem] max-md:px-8 max-sm:px-4">
+      <section className="about pt-[9rem] max-md:pt-[3rem] px-[4rem] max-md:px-8 max-sm:px-4 max-sm:mt-[6rem]">
         <div className="my-info flex justify-between items-center flex-col-reverse md:flex-row gap-8 max-md:items-start">
           {/* Text Content */}
           <div className="text w-full md:w-2/3 mt-[4rem] max-md:mt-[1rem]">
