@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { MdArrowOutward } from 'react-icons/md';
 import { projectsData } from '../data/Data';
@@ -10,7 +10,14 @@ const rowdies = Rowdies({
   subsets: ['latin'],
 });
 
+
 const RecentWork = () => {
+  const [activeProject, setActiveProject] = useState(null);
+
+  const handleProjectClick = (id) => {
+    setActiveProject(activeProject === id ? null : id);
+  };
+
   return (
     <section className='projects py-12 px-4 md:px-8 lg:px-16' id='projects'>
       <h1 className={`${rowdies.className} mb-2 relative text-3xl font-bold text-cyan-400`}>RECENT WORK</h1>
@@ -26,6 +33,7 @@ const RecentWork = () => {
             <div 
               key={project.id}
               className="project relative group overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:scale-105"
+              onClick={() => handleProjectClick(project.id)}
             >
               <div className="img w-full h-64 md:h-80 lg:h-96 relative">
                 <Image
@@ -36,7 +44,12 @@ const RecentWork = () => {
                 />
               </div>
               
-              <div className="content absolute inset-0 bg-black bg-opacity-0 flex flex-col justify-center items-center p-6 opacity-0 group-hover:opacity-90 transition-opacity duration-300">
+              <div className={`content absolute inset-0 bg-black flex flex-col justify-center items-center p-6
+                ${activeProject === project.id ? 'opacity-90 bg-opacity-90' : 'opacity-0 bg-opacity-0'}  
+                lg:opacity-0 bg-opacity-0
+                group-hover:opacity-80 group-hover:bg-opacity-80 
+                transition-all duration-300`}
+              >
                 <span className="text-white uppercase tracking-widest text-md font-bold mb-1">
                   {project.category}
                 </span>
@@ -44,7 +57,7 @@ const RecentWork = () => {
                 {project.technologies.map((tech, index) => (
                   <span 
                     key={index}
-                    className={`text-white uppercase tracking-wider text-md font-bold mb-1 ${
+                    className={`text-white max-sm:text-sm uppercase tracking-wider text-md font-bold mb-1 ${
                       project.highlightTech && index === project.technologies.length - 1 
                         ? 'text-cyan-400 font-bold' 
                         : ''
@@ -54,7 +67,7 @@ const RecentWork = () => {
                   </span>
                 ))}
                 
-                <h2 className={`${rowdies.className} text-cyan-400 text-xl md:text-xl mt-4 mb-6 uppercase tracking-wider`}>
+                <h2 className={`${rowdies.className} text-cyan-400 text-xl max-sm:text-[1rem] mt-4 mb-6 uppercase tracking-wider`}>
                   {project.title}
                 </h2>
                 
@@ -65,8 +78,9 @@ const RecentWork = () => {
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white text-2xl border-2 border-white rounded-full p-2 transition-all duration-300 hover:text-cyan-400 hover:border-cyan-400"
+                      className="text-white text-2xl max-md:text-md border-2 border-white rounded-full p-2 transition-all duration-300 hover:text-cyan-400 hover:border-cyan-400"
                       title={link.title}
+                      onClick={(e) => e.stopPropagation()} // Prevent project click when clicking links
                     >
                       {link.icon === 'FaGithub' ? <FaGithub /> : <MdArrowOutward />}
                     </a>
