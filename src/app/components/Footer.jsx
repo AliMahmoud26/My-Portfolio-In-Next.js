@@ -8,7 +8,7 @@ const rowdies = Rowdies({
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-[#03cdff17] pt-14 pb-5 px-8 md:px-16 mt-12' id='contact'>
+    <footer className='w-full bg-[#03cdff17] pt-14 pb-5 lg:px-8 md:px-16 mt-12' id='contact'>
       <div className="mx-auto flex flex-col max-w-7xl">
         {/* Reach Me Section */}
         <div className="reach-me mb-10">

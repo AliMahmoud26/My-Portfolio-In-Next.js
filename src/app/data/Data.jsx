@@ -86,17 +86,23 @@ export const projectsData = [
     description: "",
     image: "/ecommerce5.jpg",
     links: [
-      {
-        type: "live",
-        url: "https://react-nugget-app-menu-filtering.vercel.app/",
-        icon: "MdArrowOutward",
-        title: "Live Site"
-      },
+      // {
+      //   type: "live",
+      //   url: "https://react-nugget-app-menu-filtering.vercel.app/",
+      //   icon: "MdArrowOutward",
+      //   title: "Live Site"
+      // },
       {
         type: "github",
         url: "https://github.com/AliMahmoud26/React-Nuggets-Apps",
         icon: "FaGithub",
         title: "Github Repo"
+      },
+      {
+      type: "details",
+      url: "#", // Add URL for details page if needed
+      icon: "FaEllipsisH",
+      title: "Project Details"
       }
     ],
     highlightTech: true
@@ -120,6 +126,12 @@ export const projectsData = [
         url: "https://github.com/AliMahmoud26/Expense-Tracker-Application",
         icon: "FaGithub",
         title: "Github Repo"
+      },
+      {
+      type: "details",
+      url: "#", // Add URL for details page if needed
+      icon: "FaEllipsisH",
+      title: "Project Details"
       }
     ]
   },
@@ -133,15 +145,21 @@ export const projectsData = [
     links: [
       {
         type: "live",
-        url: "https://little-lemon-silk.vercel.app/",
+        url: "https://little-lemon-restaurant-nu-three.vercel.app/",
         icon: "MdArrowOutward",
         title: "Live Site"
       },
       {
         type: "github",
-        url: "https://github.com/AliMahmoud26/Meta-Frontend-Capstone-Project",
+        url: "https://github.com/AliMahmoud26/Little-Lemon-Restaurant-Using-Next.js",
         icon: "FaGithub",
         title: "Github Repo"
+      },
+      {
+      type: "details",
+      url: "#", // Add URL for details page if needed
+      icon: "FaEllipsisH",
+      title: "Project Details"
       }
     ]
   },
@@ -164,6 +182,48 @@ export const projectsData = [
         url: "https://github.com/AliMahmoud26/MallMarkt-Control-Panel",
         icon: "FaGithub",
         title: "Github Repo"
+      },
+      {
+      type: "details",
+      url: "#", // Add URL for details page if needed
+      icon: "FaEllipsisH",
+      title: "Project Details"
+      }
+    ],
+    highlightTech: true
+  },
+  {
+    id: 5,
+    title: "Students Performance Prediction System",
+    category: "Graduation Project",
+    technologies: ["Excel, Power BI", "Python and Its Libraries", "Scikit-Learn, Random Forest"],
+    description: "A machine learning model that predicts student performance based on various academic factors.",
+    font: "lg:text-center",
+    features: [
+      "Data analysis using Excel and Power BI",
+      "Python implementation with Scikit-Learn",
+      "Random Forest algorithm for prediction"
+    ],
+    path: "/projects/student-performance", // Add this line
+    image: "/graduate-4.jpg",
+    links: [
+      // {
+      //   type: "live",
+      //   url: "#",
+      //   icon: "MdArrowOutward",
+      //   title: "Live Site"
+      // },
+      // {
+      //   type: "github",
+      //   url: "#",
+      //   icon: "FaGithub",
+      //   title: "Github Repo"
+      // },
+      {
+        type: "details",
+        url: "#",
+        icon: "FaEllipsisH",
+        title: "Project Details"
       }
     ],
     highlightTech: true
